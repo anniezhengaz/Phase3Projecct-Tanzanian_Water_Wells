@@ -1,4 +1,5 @@
-# Phase3Project-Tanzanian_Water_Wells
+# Phase 3 Project: Pump it Up - Data Mining the Water Table
+## Predicting whether water pumps in Tanzania are faulty given a feature dataset
 For this project, the README.md file should contain:
 
 Overview
