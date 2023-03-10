@@ -33,7 +33,7 @@ We have determined three key business goals to help Well Aware:
 
 Final Model Accuracy: 86.4%
 
-Model development underwent 8 phases. From the first model to the last, we increased overall accuracy by greater than 30%. 
+Model development underwent 8 phases. From the first model to the last, we increased overall accuracy by more than 30%. 
 
 The final model dealt with the imbalanced dataset by oversampling the minority classes (*functional needs repair* and *non-functional*) and using grid search to determine the best hyperparameters for a classification decision tree.
 
