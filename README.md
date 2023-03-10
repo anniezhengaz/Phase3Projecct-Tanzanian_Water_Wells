@@ -5,20 +5,29 @@
 ## Authors
 Annie Zheng, Diego Fernandez, Gligorco Vasilev
 
-### Project Overview
+## Project Overview
 
 The [Well Beyond](https://www.wellbeyondwater.com/) app, developed by Well Aware, has been revolutionary in providing insights to non-governmental organizations (NGOs) about the status of wells. We aim to aid the Well Beyond app by adding a feature predicting the functionality of wells in Tanzania given attributes provided by the [Tanzanian Ministry of Water](https://www.maji.go.tz/). Using the provided dataset, we have developed models that can predict the functionality of wells with upwards of 86.4% accuracy.
 
 
 <p align="center"><img src="images/Well Beyond Logo.png" width=400></p>
 
-### Background
+## Navigating This Repository
+
+| Folder Name | Contents    |
+| ----------- | ----------- |
+| notebooks   | Code & output file production  |
+| images      | Plots & images     |
+| zipped_data  | Raw zipped datasets |
+| plotting_data  | Datasets created |
+
+## Background
 Water is essential substance for life on Earth, and many people around the world have limited access. In Tanzania, 16 out of 59 million people lack access to safe water, and can be forced to travel long distances (>3 miles on average) to collect water for basic needs every day. 
 
-### Motivation
+## Motivation
 Gaining a better understanding of where wells need repair can help direct funding and resources to the places of greatest need, thus ensuring people in dire need of water can gain safe access.
 
-### Data Understanding and Business Goals
+## Data Understanding and Business Goals
 
 Nearly half the wells in the Ministry of Water's dataset were completely non-functional or in need of repair.
 <p align="center"><img src="plots/training_set_values.png" width=600></p>
@@ -30,7 +39,7 @@ We have determined three key business goals to help Well Aware:
 2. Determine key features with the highest predictive power on well functionality to decide what data needs to be gathered.
 3. Recommend features of wells that may be useful for gaining better predictability of well status.
 
-### Modeling
+## Modeling
 
 Final Model Accuracy: 86.4%
 
@@ -48,7 +57,7 @@ The final model dealt with the imbalanced dataset by oversampling the minority c
 | Random Forest w/ Undersampling   | Balanced the previous model with undersampling  | 70.7% |
 | Random Forest w/ Oversampling    | Balanced the previous model with oversampling   | 84.3% |
 | Tunes Random Forest w/ Oversampling | Determined the best hyperparameters for the previous model | 86.4% |
-### Evaluation
+## Evaluation
 
-### Conclusion
+## Conclusion
 
