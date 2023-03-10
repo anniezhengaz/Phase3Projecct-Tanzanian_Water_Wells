@@ -9,7 +9,7 @@ Annie Zheng, Diego Fernandez, Gligorco Vasilev
 
 The [Well Beyond](https://www.wellbeyondwater.com/) app, developed by Well Aware, has been revolutionary in providing insights to non-governmental organizations (NGOs) about the status of wells. We aim to aid the Well Beyond app by adding a feature predicting the functionality of wells in Tanzania given attributes provided by the [Tanzanian Ministry of Water](https://www.maji.go.tz/). Using the provided dataset, we have developed models that can predict the functionality of wells with upwards of 86.4% accuracy.
 
-<img width="1245" alt="Screenshot 2023-03-10 at 11 53 44 AM" src="https://user-images.githubusercontent.com/121091458/224414820-4280a3b3-adfc-4a78-b7e8-451febbf794b.png">
+![Well Beyond Logo](images/Well Beyond Logo.png)
 
 ### Background and Motivation
 Water is essential substance for life on Earth, and many people around the world have limited access. In Tanzania, 16 out of 59 million people lack access to safe water, and can be forced to travel long distances (>3 miles on average) to collect water for basic needs every day. 
