@@ -14,12 +14,15 @@ The [Well Beyond](https://www.wellbeyondwater.com/) app, developed by Well Aware
 
 ## Navigating This Repository
 
-| Folder Name | Contents    |
+| Folder/File Name | Contents    |
 | ----------- | ----------- |
-| notebooks   | Code & output file production  |
-| images      | Plots & images     |
-| zipped_data  | Raw zipped datasets |
-| plotting_data  | Datasets created |
+| phase_3_project_final_notebook | The final notebook with all models and plots |
+| progress_notebooks   | A collection of notebooks developed throughout the project  |
+| images      | Images used in the presentation and read.me     |
+| plots  | Output plots |
+| data  | Datasets downloaded and created |
+| submissions | Csv files used to submit to the DrivenData competition |
+| Presentation.pdf | A pdf of the final project presentation |
 
 ## Background
 Water is the most essential substance for life on Earth, and many people around the world have limited access. In Tanzania, 16 out of 59 million people lack access to safe water, and can be forced to travel long distances (>3 miles on average) to collect water for basic needs every day. 
