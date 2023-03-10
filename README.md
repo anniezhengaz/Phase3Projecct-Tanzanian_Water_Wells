@@ -7,20 +7,25 @@ Annie Zheng, Diego Fernandez, Gligorco Vasilev
 
 ### Project Overview
 
-The Well Beyond app, developed by Well Aware, has been revolutionary in providing insights to non-governmental organizations (NGOs) about the status of wells. We aim to aid the Well Beyond app by adding a feature predicting the functionality of wells in Tanzania given attributes provided by the [Tanzanian Ministry of Water](https://www.maji.go.tz/). Using the provided dataset, we have developed models that can predict the functionality of wells with upwards of 86.4% accuracy.
+The [Well Beyond](https://www.wellbeyondwater.com/) app, developed by Well Aware, has been revolutionary in providing insights to non-governmental organizations (NGOs) about the status of wells. We aim to aid the Well Beyond app by adding a feature predicting the functionality of wells in Tanzania given attributes provided by the [Tanzanian Ministry of Water](https://www.maji.go.tz/). Using the provided dataset, we have developed models that can predict the functionality of wells with upwards of 86.4% accuracy.
 
 
 ### Background Story
-Water is the most essential substance for life on earth, and many people around the world have limited access.
+Water is essential substance for life on Earth, and many people around the world have limited access.
 
-In Tanzania, 16 out of 59 million people lack access to safe water, and can be forced to travel long distances (>3 miles on average) to collect water for basic needs every day.
+In Tanzania, 16 out of 59 million people lack access to safe water, and can be forced to travel long distances (>3 miles on average) to collect water for basic needs every day. Gaining a better understanding of where wells need repair can help direct funding and resources to the places of greatest need.
 
 ### Business and Data Understanding
 
-Like we said in our overview 1/4 of the population in Tanzania has no access to safe water.From all the water points established in this country a lot of them are either non functional or need repair.
-The models we did in this project will help Beyond Well app to predict better what wells are in need for repair based on the important features we extracted from the data given.
-Also this features can contribute to overall maintenance operations of the wells and help to ensure clean and safe water to more people accross the country!
-Our goal is to add a new feauture to Well Beyond app to predict if a well needs a repair like we said previously! 
+Nearly half the wells in the Ministry of Water's dataset were completely non-functional or in need of repair 
+|||| INSERT ANNIE PLOT OF DISTRIBUTION OF WELL FUNCTIONALITY ||||
+
+Using these labels of *functional*, *non-functional*, or *functional needs repair*, we can develop machine learning models that classify well functionality according available well information. 
+
+We have determined three key business goals:
+1. Insert our predictive model into the Well Beyond app to help NGOs better allocate resources for maintenance operations.
+2. Derive insights on where resources need allocation.
+3. Recommend features of wells that may be useful for gaining better predictability of well status.
 
 ### Explain your stakeholder audience and dataset choice here
 
