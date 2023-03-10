@@ -12,9 +12,10 @@ The [Well Beyond](https://www.wellbeyondwater.com/) app, developed by Well Aware
 
 <p align="center"><img src="images/Well Beyond Logo.png" width=400></p>
 
-### Background and Motivation
+### Background
 Water is essential substance for life on Earth, and many people around the world have limited access. In Tanzania, 16 out of 59 million people lack access to safe water, and can be forced to travel long distances (>3 miles on average) to collect water for basic needs every day. 
 
+### Motivation
 Gaining a better understanding of where wells need repair can help direct funding and resources to the places of greatest need, thus ensuring people in dire need of water can gain safe access.
 
 ### Data Understanding and Business Goals
