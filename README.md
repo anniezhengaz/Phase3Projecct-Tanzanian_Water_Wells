@@ -22,7 +22,7 @@ The [Well Beyond](https://www.wellbeyondwater.com/) app, developed by Well Aware
 | plotting_data  | Datasets created |
 
 ## Background
-Water is essential substance for life on Earth, and many people around the world have limited access. In Tanzania, 16 out of 59 million people lack access to safe water, and can be forced to travel long distances (>3 miles on average) to collect water for basic needs every day. 
+Water is the most essential substance for life on Earth, and many people around the world have limited access. In Tanzania, 16 out of 59 million people lack access to safe water, and can be forced to travel long distances (>3 miles on average) to collect water for basic needs every day. 
 
 ## Motivation
 Gaining a better understanding of where wells need repair can help direct funding and resources to the places of greatest need, thus ensuring people in dire need of water can gain safe access.
@@ -39,9 +39,7 @@ We have determined three key business goals to help Well Aware:
 2. Determine key features with the highest predictive power on well functionality to decide what data needs to be gathered.
 3. Recommend features of wells that may be useful for gaining better predictability of well status.
 
-## Modeling
-
-Final Model Accuracy: 86.4%
+## Modeling and Evaluation
 
 Model development underwent 8 phases. From the first model to the last, we increased overall accuracy by more than 30%. 
 
@@ -57,7 +55,17 @@ The final model dealt with the imbalanced dataset by oversampling the minority c
 | Random Forest w/ Undersampling   | Balanced the previous model with undersampling  | 70.7% |
 | Random Forest w/ Oversampling    | Balanced the previous model with oversampling   | 84.3% |
 | Tunes Random Forest w/ Oversampling | Determined the best hyperparameters for the previous model | 86.4% |
-## Evaluation
+
+4 key attributes explained nearly 50% of the predictive power of the model:
+- Location
+- Water Level
+- Year
+- Well Type
 
 ## Conclusion
+
+We recommend that Well Aware look into providing monetary incentives for the gathering of additional well data, primarily with regard to the construction year. Some useful additional information that could improve model performance, would be to find out the amount of water extracted from a well each day as well as the date of most recent maintenance. 
+
+Overall, however, our model proves an excellent future feature for the Well Beyond app, with a well functionality predictive power of 86.4%. On top of this, since the focus is in determining whether a well needs repair, the respective classification accuracy of 94.4% shows that this will be incredibly useful to Well Aware.
+
 
