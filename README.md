@@ -50,8 +50,8 @@ The final model dealt with the imbalanced dataset by oversampling the minority c
 
 | Model       | Description | Accuracy |
 | ----------- | ----------- | ----------- |
-| Baseline Model      | Always predicts functional | 54.91% |
-| Logistic Regression | Trained on population data | 54.82% |
+| Baseline Model      | Always predicts functional | 54.9% |
+| Logistic Regression | Trained on population data | 54.8% |
 | Baseline Decision Tree| Using attributes amount_tsh and waterpoint_type | 64.4% |
 | Decision Tree with OHE | One hot encoded the categorical attributes | 72.6% |
 | Random Forest       | Trained with the top 20 Predictive Attributes | 79.4%|
