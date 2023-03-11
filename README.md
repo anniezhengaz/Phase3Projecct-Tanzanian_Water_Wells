@@ -57,7 +57,7 @@ The final model dealt with the imbalanced dataset by oversampling the minority c
 | Random Forest       | Trained with the top 20 Predictive Attributes | 79.4%|
 | Random Forest w/ Undersampling   | Balanced the previous model with undersampling  | 70.7% |
 | Random Forest w/ Oversampling    | Balanced the previous model with oversampling   | 84.3% |
-| Tunes Random Forest w/ Oversampling | Determined the best hyperparameters for the previous model | 86.4% |
+| Tuned Random Forest w/ Oversampling | Determined the best hyperparameters for the previous model | 86.4% |
 
 4 key attributes explained nearly 50% of the predictive power of the model:
 - Location
@@ -67,7 +67,7 @@ The final model dealt with the imbalanced dataset by oversampling the minority c
 
 ## Conclusion
 
-We recommend that Well Aware look into providing monetary incentives for the gathering of additional well data, primarily with regard to the construction year. Some useful additional information that could improve model performance, would be to find out the amount of water extracted from a well each day as well as the date of most recent maintenance. 
+We recommend that Well Aware look into providing greater monetary incentives for the gathering of additional well data, primarily with regard to the construction year. Some useful additional information that could improve model performance, would be to find out the amount of water extracted from a well each day as well as the date of most recent maintenance. 
 
 Overall, however, our model proves an excellent future feature for the Well Beyond app, with a well functionality predictive power of 86.4%. On top of this, since the focus is in determining whether a well needs repair, the respective classification accuracy of 94.4% shows that this will be incredibly useful to Well Aware.
 
